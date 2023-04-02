@@ -1,0 +1,121 @@
+.renting-card {
+display: flex;
+flex-direction: column;
+border-radius: 10px;
+margin: 10px;
+width: 350px;
+height: 200px;
+background-color: #E8E7E7;
+
+}
+
+.renting-image-container {
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+overflow: hidden;
+}
+
+.renting-image {
+width: 100%;
+height: 150px;
+object-fit: cover;
+}
+
+.renting-info-container {
+padding: 10px;
+
+}
+
+.renting-card-button:hover {
+  transition: 0.2s ease-in;
+  background-color: rgb(147, 147, 147);
+}
+
+.renting-profile-image {
+width: 50px;
+height: 50px;
+border-radius: 10px;
+margin-right: 10px;
+}
+
+.renting-name {
+margin: 10px 0;
+display: flex;
+align-items: center;
+
+}
+
+.renting-date {
+margin: 0 0 10px 0;
+}
+
+.renting-capacity {
+margin: 0 0 10px 0;
+}
+
+.renting-price {
+margin: 0;
+font-weight: bold;
+}
+
+.paid-status {
+margin: 0;
+color: green;
+font-weight: bold;
+}
+
+.renting-button {
+background-color: #0077ff;
+color: white;
+border: none;
+border-radius: 5px;
+padding: 10px;
+cursor: pointer;
+}
+
+.renting-card-header{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.renting-card-title{
+    margin-left: 10px;
+    
+}
+
+.renting-card-profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-top: 10px;
+  
+}
+
+.renting-card-body{
+    margin-left: 85px;
+    margin-bottom: 5px;
+}
+
+.renting-button:hover {
+background-color: #0055cc;
+}
+
+.renting-card-button{
+
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    width: 250x;
+    height: 50px;
+    background-color: rgb(205, 201, 201);
+    outline: none;
+    border: none;
+    font-size: large;
+    font-weight: 300;
+
+}
+
+
